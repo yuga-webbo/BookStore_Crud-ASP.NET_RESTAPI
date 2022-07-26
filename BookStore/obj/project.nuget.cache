@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RdfwT/adWcWNbxMDBeXRog6sgcP0fkZ/BI7WSVrzQBLDXhA7mK8MLA84uRxSgInZJW1P+dUOJuun79n876rZRg==",
+  "dgSpecHash": "k4uc0+jutrY/fN9Z5iYSVsZ2HR2ivnOFnS+pYPVVGCrLBIE59BleR5Kz24UAcl5xsScEeqF7muHnFVXp9ktdAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yugap\\YUGA-WEB\\Rubix\\ASP.NET\\BookStore\\BookStore\\BookStore.csproj",
+  "projectFilePath": "C:\\Users\\yugap\\YUGA-WEB\\Rubix\\Examples-Angular\\BookStore_Crud-ASP.NET_RESTAPI\\BookStore\\BookStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yugap\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\yugap\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
@@ -17,7 +17,8 @@
     "C:\\Users\\yugap\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
     "C:\\Users\\yugap\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
     "C:\\Users\\yugap\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
-    "C:\\Users\\yugap\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    "C:\\Users\\yugap\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\yugap\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
   ],
   "logs": []
 }

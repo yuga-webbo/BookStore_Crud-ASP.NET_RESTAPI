@@ -1,5 +1,6 @@
 ﻿using BookStore.Models;
 using BookStore.Services.Interface;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -12,6 +13,7 @@ namespace BookStore.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [EnableCors("BookPolicy")]
     public class BookController : ControllerBase
     {
         private readonly IBookService _bookService;

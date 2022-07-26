@@ -30,6 +30,7 @@ namespace BookStore
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+           // services.AddCors(options => options.AddDefaultPolicy(builder => builder.AllowAnyOrigin()));
             services.Configure<BookStoreDatabaseSettings>(
                 Configuration.GetSection(nameof(BookStoreDatabaseSettings)));
 
@@ -41,6 +42,12 @@ namespace BookStore
             services.AddHttpContextAccessor();
 
             services.AddControllers();
+            services.AddCors(o => o.AddPolicy("BookPolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
+            }));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "BookStore", Version = "v1" });
@@ -58,7 +65,10 @@ namespace BookStore
             }
 
             app.UseRouting();
-
+            app.UseCors(x => x
+                         .AllowAnyOrigin()
+                         .AllowAnyMethod()
+                         .AllowAnyHeader());
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

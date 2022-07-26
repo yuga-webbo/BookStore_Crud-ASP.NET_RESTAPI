@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yugap\\YUGA-WEB\\Rubix\\ASP.NET\\BookStore\\BookStore\\BookStore.csproj": {}
+    "C:\\Users\\yugap\\YUGA-WEB\\Rubix\\Examples-Angular\\BookStore_Crud-ASP.NET_RESTAPI\\BookStore\\BookStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yugap\\YUGA-WEB\\Rubix\\ASP.NET\\BookStore\\BookStore\\BookStore.csproj": {
+    "C:\\Users\\yugap\\YUGA-WEB\\Rubix\\Examples-Angular\\BookStore_Crud-ASP.NET_RESTAPI\\BookStore\\BookStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yugap\\YUGA-WEB\\Rubix\\ASP.NET\\BookStore\\BookStore\\BookStore.csproj",
+        "projectUniqueName": "C:\\Users\\yugap\\YUGA-WEB\\Rubix\\Examples-Angular\\BookStore_Crud-ASP.NET_RESTAPI\\BookStore\\BookStore.csproj",
         "projectName": "BookStore",
-        "projectPath": "C:\\Users\\yugap\\YUGA-WEB\\Rubix\\ASP.NET\\BookStore\\BookStore\\BookStore.csproj",
+        "projectPath": "C:\\Users\\yugap\\YUGA-WEB\\Rubix\\Examples-Angular\\BookStore_Crud-ASP.NET_RESTAPI\\BookStore\\BookStore.csproj",
         "packagesPath": "C:\\Users\\yugap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yugap\\YUGA-WEB\\Rubix\\ASP.NET\\BookStore\\BookStore\\obj\\",
+        "outputPath": "C:\\Users\\yugap\\YUGA-WEB\\Rubix\\Examples-Angular\\BookStore_Crud-ASP.NET_RESTAPI\\BookStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yugap\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,6 +59,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.16, 5.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -67,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
