@@ -44,7 +44,7 @@ namespace BookStore.Controllers
             return Ok(await _bookService.AddBook(addrequest));
         }
 
-        [HttpPatch("UpdateBook")]
+        [HttpPut("UpdateBook")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(string))]
         public async Task<IActionResult> UpdateBook(Book updaterequest)
         {
